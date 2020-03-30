@@ -1,0 +1,9 @@
+https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap
+
+footer backgroud = #2D283E
+
+button backgroud = #802BB1
+
+text color = #C4C4C4
+
+https://w3schools.com

@@ -1,0 +1,93 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #C4C4C4;
+    background-image: url('images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-section {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#logo-section img {
+    width: 57px;
+    height: 57px;
+}
+
+#navigation li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#login {
+    background-color: #802BB1;
+    font-size: 1.5rem;
+}
+
+#chat-anon, #connect-join{
+    max-width: 50%;
+    min-width: 50%;
+}
+
+#chat-anon h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+#chat-anon h3{
+    font-size: 3rem;
+    margin: 0;
+}
+
+#connect-join {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#connect-join button{
+    border: none;
+    font-size: inherit;
+    border-radius: 6px;
+    background-color: #802BB1;
+    color: inherit;
+    padding: 5px 15px;
+}
+
+footer {
+    background-color: #2D283E;
+}
+
+footer ul {
+    text-align: center;
+}
+footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
